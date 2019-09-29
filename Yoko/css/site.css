@@ -1,0 +1,78 @@
+/*@import url("normalize.css");*/
+
+/*----kleuren----
+#666666: kleur tekst
+#aeaca8: grijs
+#de6581: roze
+*/
+
+body {
+	color: #666666;
+	font-family: Verdana, Arial, sans-serif;
+	line-height: 1.2em;
+}
+
+header,
+footer {
+	background-color: #aeaca8;
+}
+
+a {
+	color:dimgray;
+}
+
+h1 {
+	color: #de6581;
+	font-size: 1.5em;
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+h3 {
+	color: #de6581;
+	font-size: 1.1em;
+	font-weight: normal;
+}
+
+a {
+	text-decoration: none;
+}
+
+figcaption {
+	font-size: 90%;
+	text-align: left;
+}
+
+
+/*--menu--*/
+
+nav li a {
+	color: black;
+}
+
+nav li a:hover {
+	color: #de6581;
+}
+
+.current {
+	color: white;
+	cursor: default;
+}
+
+ul {
+	list-style: none;
+}
+/*--aside--*/
+
+section address,
+section a {
+	font-size: 0.8em;
+}
+
+address {
+	font-style: normal;
+}

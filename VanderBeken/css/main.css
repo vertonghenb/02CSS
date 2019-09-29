@@ -1,0 +1,71 @@
+/* Imports */
+
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i');
+
+/* Algemeen*/
+
+body {
+    font-family: 'Open sans', sans-serif;
+    background: #f2f2f2 URL('../assets/images/body_bg.png') repeat top left;
+    color: #5e6461;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 1.2em;
+    line-height: 2em;
+}
+
+
+/* Navigatie */
+
+nav {
+    border-bottom: 1px dashed #bfc2bf;
+}
+
+nav li {
+    font-size: 1.2em;
+    line-height: 1.2em;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #979797;
+}
+
+nav li a:hover {
+    color: #636b67;
+}
+
+nav .current {
+    color: red;
+}
+
+
+/* Main content */
+
+main {
+    line-height: 1.2em;
+}
+
+main p em {
+    color: red;
+}
+
+
+/* Footer */
+
+footer {
+    background: red;
+    color: white;
+}
+
+footer h1 {
+    line-height: 1.5em;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
